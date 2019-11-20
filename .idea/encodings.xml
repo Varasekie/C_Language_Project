@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/main.cpp" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/CardUp.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/ExchaneNum.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/PowerSum.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Sort.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/SumNum.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/自动加.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/霍夫曼编码.h" charset="UTF-8" />
+  </component>
+</project>
