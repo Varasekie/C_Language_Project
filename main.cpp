@@ -12,7 +12,7 @@
 
 
 #include <stdio.h>
-1
+
 int main() {
     //  multTable();  //九九乘法表
     //  sumNum();  //前n项和
