@@ -9,10 +9,15 @@
 //  #include "src/Triangle.h"  //三角打印
 //  #include "src/Sort.h"  //八种排序
 //  #include "src/getint.h"//读入并输出正整数
+//#include "src/twopartsearch.h"//二分查找
+//#include"src/sushu.h"//3到n中素数的平方和（n<50
+//#include"src/rolling matrix.h"//矩阵转置
+//#include"src/Pascal's triangle.h"//杨辉三角打印(注意数组上下关系
+//#include "src/Palindromenumber.h"
+//#include "src/findnumber(twopart.h"
 
 
 #include <stdio.h>
-
 int main() {
     //  multTable();  //九九乘法表
     //  sumNum();  //前n项和
@@ -24,5 +29,11 @@ int main() {
     //  fib();  //Fibonacci
     //  triangle();  //三角打印
     //  八种排序可以看名字打印
-   // getint();//读入并输出正整数
+    // getint();//读入并输出正整数
+    //a();//二分查找
+    //b();//素数
+    //rollingmatrix();//矩阵转置(输入时看清几行几列
+    //Pascaltriangle();//杨辉三角
+    //Palindromenumber();
+   //findnumbertwopart();
 }
