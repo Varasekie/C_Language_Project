@@ -1,6 +1,14 @@
+//
+// Created by 86139 on 2019/12/23.
+//
+
+#ifndef C_LANGUAGE_PROJ_LEAPYEAR_H
+#define C_LANGUAGE_PROJ_LEAPYEAR_H
+
+
 #include <stdio.h>
 
-main() {
+void LeapYear() {
     int i = 1, a = 1, year = 1900, countprint = 0;
     while (year <= 2000) {
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
@@ -15,3 +23,4 @@ main() {
         year++;
     }
 }
+#endif //C_LANGUAGE_PROJ_LEAPYEAR_H
