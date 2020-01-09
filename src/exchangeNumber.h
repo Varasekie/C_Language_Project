@@ -1,9 +1,10 @@
 //
-// Created by 86139 on 2019/11/19.
+// Created by 86139 on 2019/12/29.
 //
 
-#ifndef C_LANGUAGE_PROJ_EXCHANENUM_H
-#define C_LANGUAGE_PROJ_EXCHANENUM_H
+#ifndef C_LANGUAGE_PROJ_EXCHANGENUMBER_H
+#define C_LANGUAGE_PROJ_EXCHANGENUMBER_H
+
 
 #include <stdio.h>
 
@@ -11,7 +12,7 @@
 
 int exchangeNum() {
     int a[N] = {1, 4, 2, 6, 8}, i, temp;
-    printf("原本数组\n");
+    printf("Before\n");
     for (i = 0; i <= N - 1; i++) {
         printf("%d", a[i]);
     }
@@ -20,10 +21,10 @@ int exchangeNum() {
         a[i] = a[N - i - 1];
         a[N - i - 1] = temp;
     }
-    printf("\n变换后数组：\n");
+    printf("\nAfter锛歕n");
     for (i = 0; i <= N - 1; i++) {
         printf("%d", a[i]);
     }
 }
 
-#endif //C_LANGUAGE_PROJ_EXCHANENUM_H
+#endif //C_LANGUAGE_PROJ_EXCHANGENUMBER_H

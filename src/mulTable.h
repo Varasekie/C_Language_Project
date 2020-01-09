@@ -1,9 +1,10 @@
 //
-// Created by 86139 on 2019/11/19.
+// Created by 86139 on 2019/12/29.
 //
 
-#ifndef C_LANGUAGE_PROJ_MULTTABLE_H
-#define C_LANGUAGE_PROJ_MULTTABLE_H
+#ifndef C_LANGUAGE_PROJ_MULTABLE_H
+#define C_LANGUAGE_PROJ_MULTABLE_H
+
 
 #include <stdio.h>
 
@@ -17,6 +18,4 @@ void multTable() {
         putchar('\n');
     }
 }
-
-
-#endif //C_LANGUAGE_PROJ_MULTTABLE_H
+#endif //C_LANGUAGE_PROJ_MULTABLE_H

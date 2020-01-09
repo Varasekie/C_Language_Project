@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <cmath>
 
-void Palindromenumber() {
+void palindromeNumber() {
     int i, j, k, m, s = 0, l;
     bool P = true;
     for (i = 4; i <= 256; i++) {

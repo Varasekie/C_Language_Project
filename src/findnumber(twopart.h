@@ -9,7 +9,7 @@
 
 #define N 5
 
-void findnumbertwopart() {
+void findNumberTwopPart() {
     int a[N];
     int i, temp, j;
     for (i = 0; i < N; i++) {

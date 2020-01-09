@@ -2,14 +2,14 @@
 // Created by 86139 on 2019/11/29.
 //
 
-#ifndef C_LANGUAGE_PROJ_SUSHU_H
-#define C_LANGUAGE_PROJ_SUSHU_H
+#ifndef C_LANGUAGE_PROJ_PRIMENUMBER_H
+#define C_LANGUAGE_PROJ_PRIMENUMBER_H
 
 
 #include<math.h>
 #include<stdio.h>
 
-void b(){
+void primeNumber(){
     int i,m,n,sum=0;
     printf("请输入n，将输出3到n的素数的平方和：");
     scanf("%d",&n);
@@ -27,4 +27,4 @@ void b(){
 printf("%d",sum);
 
 }
-#endif //C_LANGUAGE_PROJ_SUSHU_H
+#endif //C_LANGUAGE_PROJ_PRIMENUMBER_H

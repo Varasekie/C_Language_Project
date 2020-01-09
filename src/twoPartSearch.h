@@ -9,7 +9,7 @@
 
 #define N 5
 
-int a() {
+int twoPartSearch() {
     int a[N], i, left, right, m, finish, mid;
     left = 0;
     right = N - 1;
